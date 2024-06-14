@@ -5,23 +5,23 @@ $(document).ready(function() {
     const repositorios = [
         {
             nombre: 'Proyecto 1',
-            descripcion: 'Descripción del Proyecto 1',
-            link: 'https://github.com/usuario/proyecto1'
+            descripcion: 'Taller-De-Reparaciones',
+            link: 'https://github.com/Maximo10/TallerBirhan'
         },
         {
             nombre: 'Proyecto 2',
-            descripcion: 'Descripción del Proyecto 2',
-            link: 'https://github.com/usuario/proyecto2'
+            descripcion: 'Biblioteca',
+            link: 'https://github.com/Maximo10/Biblioteca_Birhan'
         },
         {
             nombre: 'Proyecto 3',
-            descripcion: 'Descripción del Proyecto 3',
-            link: 'https://github.com/usuario/proyecto3'
+            descripcion: 'Juego Tres-en-Raya',
+            link: 'https://github.com/Maximo10/Tres-en-Raya'
         },
         {
             nombre: 'Proyecto 4',
-            descripcion: 'Descripción del Proyecto 4',
-            link: 'https://github.com/usuario/proyecto4'
+            descripcion: 'Tarjetas-Interactivas',
+            link: 'https://github.com/Maximo10/Tarjetas-Interactivas'
         }
     ];
 
