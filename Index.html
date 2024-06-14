@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Carta.css">
+        <title>Gestión de Clientes</title>
+    </head>
+    <body>
+    <div class="menu">
+        <p>Inicio</p>
+        <p>Acerca de</p>
+        <p>Contacto</p>
+    </div>
+    <div>
+        <div class="buscador">
+            <input type="text" class="Barrabus" placeholder="Buscar...">
+            <div class="botones">
+                <input type="button" class="boton" value="Buscar">
+                <input type="button" class="btn-add" value="Añadir Cliente">
+            </div>
+        </div>
+    </div>
+    <div class="cliente" id="Cartas">
+        <!-- Las tarjetas se generarán dinámicamente aquí
+            <div class="Carta">
+                <div class="Imagen">
+                    <img src="x">
+                </div>
+                <div class="Carta-texto">
+                    <p class="nombre">Birhan</p>
+                    <p class="apellidos">Fernández Fernández</p>
+                    <p class="Info">Estudiante de Progamación</p>
+                </div>
+            </div> 
+        -->
+    </div>
+    <!-- Modal para añadir cliente -->
+    <div id="addClientModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Añadir Cliente</h2>
+            <label for="clientName">Nombre:</label>
+            <input type="text" id="clientName">
+            <label for="clientPhone">Teléfono:</label>
+            <input type="text" id="clientPhone">
+            <label for="clientEmail">Correo:</label>
+            <input type="text" id="clientEmail">
+            <label for="clientImage">Seleccionar imagen:</label>
+            <input type="file" id="clientImage">
+            <button id="createClient">Crear Cliente</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Carta.js"></script>  
+    </body>
+</html>
